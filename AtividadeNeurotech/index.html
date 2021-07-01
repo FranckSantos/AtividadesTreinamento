@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="./script.js"></script>
+        <title>Atividade Neurotech</title>
+        
+    </head>
+
+
+    <body>
+        
+        <div class="cover">
+            
+        </div>
+
+        <div class="blocoimagens">
+            <div class="textimagens">
+                <h1>Galery:</h1>
+            </div>
+            <div class="imagens"><img src="imagens/img4.jpg"></div>
+            <div class="imagens"><img src="imagens/img5.jpg"></div>
+            <div class="imagens"><img src="imagens/img6.png"></div>
+        </div>
+
+    <div class="formulario">
+        <div>
+                <form>
+                    <div>
+                        <label for="nome">Nome: </label>
+                        <input type="text" size="30" id="nome" placeholder="Nome"/>
+                    </div>    
+
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" size="30" placeholder="exemplo@gmail.com"/>
+                        
+                    </div> 
+
+                    <div>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" cols="32" rows="10"placeholder="Escreva a sua mensagem aqui."></textarea>
+                        
+                    </div> 
+
+                    <div class="botao">
+                        <button type="submit" onclick="valida_form()">Enviar</button>
+                        <input type="reset">
+                    </div>
+                </form>
+            </div>
+            
+            <div class="contato">
+                <div class="textocontato">
+                    
+                    <h2>Contato:</h3>
+                    <p>+55 81 99535-0334</p>
+                    <p>mrfranckgore@gmail.com</p><br>
+                    <h2>Redes Sociais:</h2>
+                </div>
+
+                <div class="cont"><a href="https://www.instagram.com/"><img onmouseover = "mudaImagemInsta1()" onmouseout= "mudaImagemInsta2()" id="insta" src="imagens/instaBlack.png"></a></div>
+
+                <div class="cont"><a href="https://pt-br.facebook.com/"><img onmouseover = "mudaImagemFace1()" onmouseout= "mudaImagemFace2()" id="face" src="imagens/faceBlack.png"></a></div>
+
+                <div class="cont"><a href="https://web.whatsapp.com/"><img onmouseover = "mudaImagemWhats1()" onmouseout= "mudaImagemWhats2()" id="whats" src="imagens/whatsBlack.png"></a></div>
+
+                <div class="cont"><a href="https://github.com/FranckSantos"><img onmouseover = "mudaImagemGit1()" onmouseout= "mudaImagemGit2()" id="git" src="imagens/gitBlack.png"></a></div>
+            </div>
+        </div>
+    </body>
+</html>

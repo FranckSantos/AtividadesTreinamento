@@ -1,0 +1,101 @@
+body{
+    background-image: url(imagens/background.jpg);
+}
+
+.cover {
+    background-position: center;
+    background-image: url(imagens/img3.png);
+    background-size: cover;
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.blocoimagens{
+    width: 80vw;
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.imagens{
+    height:250px;
+    width:250px;
+    margin-left: 10px;
+    margin: 10px;
+}
+
+.textimagens{
+    font-style: verdana;
+    position: absolute;
+}
+
+.formulario{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 80vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: white;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+.botao {
+    padding-left: 90px;
+}
+button {
+    margin-left: 0.5em;
+}
+
+.contato{
+    width: 250px;
+    position: relative;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.textocontato{
+    font-style: verdana;
+    position: absolute;
+    margin-bottom: 250px;
+}
+p {
+    font: 20px arial;
+    color: white;
+}
+
+h2 {
+    font: 20px arial;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 350px;
+    color: white;
+}
